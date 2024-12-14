@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Schedule - Sup Fellas</title>
+    <meta name="description" content="Check and manage your hangout schedule with the crew. Stay updated with upcoming events and meetups.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-100">
+    <header class="bg-indigo-600 text-white shadow-lg">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734213417993/" class="text-2xl font-bold hover:text-indigo-200">Sup Fellas</a>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-white hover:text-indigo-200">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Desktop navigation -->
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734213417993/hangout.html" class="hover:text-indigo-200">Hangout</a>
+                    <a href="/generated-website-1734213417993/vibes.html" class="hover:text-indigo-200">Vibes</a>
+                    <a href="/generated-website-1734213417993/crew.html" class="hover:text-indigo-200">The Crew</a>
+                    <a href="/generated-website-1734213417993/chat.html" class="hover:text-indigo-200">Chat</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">Squad Schedule</h1>
+            
+            <!-- Schedule Calendar -->
+            <div class="mb-8">
+                <div class="grid grid-cols-7 gap-2 mb-4">
+                    <div class="text-center font-semibold text-gray-600">Sun</div>
+                    <div class="text-center font-semibold text-gray-600">Mon</div>
+                    <div class="text-center font-semibold text-gray-600">Tue</div>
+                    <div class="text-center font-semibold text-gray-600">Wed</div>
+                    <div class="text-center font-semibold text-gray-600">Thu</div>
+                    <div class="text-center font-semibold text-gray-600">Fri</div>
+                    <div class="text-center font-semibold text-gray-600">Sat</div>
+                </div>
+                
+                <div class="grid grid-cols-7 gap-2">
+                    <!-- Calendar cells with example events -->
+                    <div class="border p-2 min-h-[100px] rounded hover:bg-indigo-50 cursor-pointer">
+                        <span class="text-sm text-gray-500">1</span>
+                    </div>
+                    <div class="border p-2 min-h-[100px] rounded hover:bg-indigo-50 cursor-pointer">
+                        <span class="text-sm text-gray-500">2</span>
+                        <div class="text-xs bg-indigo-100 p-1 mt-1 rounded text-indigo-600">Game Night 🎮</div>
+                    </div>
+                    <!-- More calendar cells would follow -->
+                </div>
+            </div>
+
+            <!-- Upcoming Events -->
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Upcoming Hangouts</h2>
+                <div class="space-y-4">
+                    <div class="border-l-4 border-indigo-500 pl-4 py-2">
+                        <h3 class="font-bold text-gray-800">Game Night</h3>
+                        <p class="text-gray-600">Tuesday, 8:00 PM</p>
+                        <p class="text-sm text-gray-500">Host: Mike</p>
+                        <a href="/generated-website-1734213417993/event/game-night.html" class="text-indigo-600 hover:text-indigo-800 text-sm">View Details →</a>
+                    </div>
+                    <div class="border-l-4 border-indigo-500 pl-4 py-2">
+                        <h3 class="font-bold text-gray-800">Weekend BBQ</h3>
+                        <p class="text-gray-600">Saturday, 2:00 PM</p>
+                        <p class="text-sm text-gray-500">Host: Chris</p>
+                        <a href="/generated-website-1734213417993/event/weekend-bbq.html" class="text-indigo-600 hover:text-indigo-800 text-sm">View Details →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="flex flex-wrap gap-4">
+                <a href="/generated-website-1734213417993/create-event.html" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors">
+                    Create New Event
+                </a>
+                <a href="/generated-website-1734213417993/my-schedule.html" class="bg-gray-200 text-gray-800 px-6 py-2 rounded-lg hover:bg-gray-300 transition-colors">
+                    My Schedule
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2024 Sup Fellas. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="/generated-website-1734213417993/about.html" class="hover:text-gray-300">About</a>
+                    <a href="/generated-website-1734213417993/contact.html" class="hover:text-gray-300">Contact</a>
+                    <a href="/generated-website-1734213417993/privacy.html" class="hover:text-gray-300">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
